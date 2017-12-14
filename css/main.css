@@ -78,3 +78,48 @@ section p {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .wrapper {
+    margin: 1.3rem auto;
+  }
+
+  .section-letter,
+  .section-icon {
+    width: 25%;
+    padding: 1.8rem;
+    padding-top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .section-letter,
+  .section-icon {
+    width: 25%;
+    padding: 2.2rem;
+    padding-top: 0;
+    padding-bottom: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
