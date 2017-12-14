@@ -10,8 +10,71 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font: normal 100%/1.3 "Noto Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  background-color: #e5c30a;
+  overflow: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 45em;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.section-letter {
+  padding-top: 1.3rem;
+  padding-left: 1.3rem;
+  float: left;
+  width: 50%;
+}
+
+.section-icon {
+  padding-top: 1.3rem;
+  padding-right: 1.3rem;
+  float: right;
+  width: 50%;
+}
+
+.section-body {
+  padding: 1.3rem;
+}
+
+section h2 {
+  margin: 0;
+}
+
+section p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .wrapper {
+    margin: 1.4rem;
+  }
+
+  .section-letter,
+  .section-icon {
+    padding: 0 1rem;
+  }
+
+  .section-body {
+    padding: 0;
+  }
+
 }
